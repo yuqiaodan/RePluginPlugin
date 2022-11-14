@@ -53,8 +53,8 @@ repluginPluginConfig {
     //插件名
     pluginName = "myplugin"
     //宿主app的包名
-    hostApplicationId = "com.qihoo360.replugin.sample.host"
+    hostApplicationId = "com.qiaodan.myhost"
     //宿主app的启动activity
-    hostAppLauncherActivity = "com.qihoo360.replugin.sample.host.MainActivity"
+    hostAppLauncherActivity = "com.qiaodan.myhost.MainActivity"
 }
 
