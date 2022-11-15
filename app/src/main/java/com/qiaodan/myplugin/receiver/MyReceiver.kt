@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.BatteryManager
 import android.util.Log
+import com.qihoo360.replugin.RePlugin
 
 /**
  * author: created by song on 2022/11/14 18:10
@@ -48,6 +49,8 @@ class MyReceiver : BroadcastReceiver() {
                     BluetoothAdapter.STATE_OFF -> {
                         Log.d("PluginTag", "Plugin:BlueToothReceiver-蓝牙已经关闭")
                     }
+
+
                 }
             }
 
